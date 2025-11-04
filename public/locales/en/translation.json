@@ -1,0 +1,297 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "specifications": "Specifications",
+    "gallery": "Gallery",
+    "mission": "Mission & Vision",
+    "why_us": "Why Choose Us",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "enquire_now": "Enquire Now"
+  },
+  "brand_name": "Abhyuday Drones",
+  "hero": {
+    "title_line1": "Empowering Indian Farmers with",
+    "title_line2_highlight": "Smart Drone Technology",
+    "subtitle": "Precision farming made easy — increase yield, save resources, and monitor crops efficiently.",
+    "cards": {
+      "protect": {
+        "title": "Protect",
+        "main_text": "Exposure Protection",
+        "sub_text": "No Direct exposure to Chemicals"
+      },
+      "growth": {
+        "title": "Growth",
+        "main_text": "8 to 15%",
+        "sub_text": "Increase in Agri Productivity"
+      },
+      "saving": {
+        "title": "Saving",
+        "main_text": "Rs. 88,000 /PM",
+        "sub_text": "Earning Opportunity for KV Green Pilot"
+      }
+    }
+  },
+  "features_section": {
+    "title": "Powerful Features for Modern Farming",
+    "subtitle": "Technology designed specifically for Indian agricultural conditions",
+    "cards": [
+      {
+        "title": "Smart Crop Spraying",
+        "description": "Automated precision spraying that saves up to 40% pesticides and fertilizers while ensuring uniform coverage across your fields."
+      },
+      {
+        "title": "Aerial Crop Health Monitoring",
+        "description": "Advanced imaging technology identifies crop stress, disease, and pest infestations early, allowing timely intervention."
+      },
+      {
+        "title": "GPS-Based Precision Navigation",
+        "description": "Accurate field mapping and waypoint navigation ensures complete coverage without overlaps or gaps."
+      },
+      {
+        "title": "Real-Time Data Analytics",
+        "description": "Get instant insights on crop health, growth patterns, and yield predictions through our easy-to-use dashboard."
+      }
+    ]
+  },
+  "about_us_section": {
+    "tagline": "6 Hours of Work in 6 Minutes: The Farmer's Aircraft",
+    "title": "About Us",
+    "description": "Krishi Vimaan, a smart and precision Agritech start-up by WOW Go Green, aims to modernize Indian farming. We are dedicated to contributing to the welfare of the farming community and generating employment for rural youth through innovative drone technology.",
+    "stats": [
+      { "value": "500+", "label": "Satisfied Farmers in India" },
+      { "value": "50+", "label": "Team Of Employees" },
+      { "value": "10K+", "label": "Acres Covered" },
+      { "value": "730+", "label": "Days of R&D" },
+      { "value": "450+", "label": "Customers Served" },
+      { "value": "20+", "label": "Crops Covered" }
+    ],
+    "button_text": "Read More",
+    "image_alt": "Krishi Vimaan Agriculture Drone with its arms extended"
+  },
+  "services_section": {
+    "tagline": "What We Offer",
+    "title": "Comprehensive Drone Solutions",
+    "subtitle": "From training to financial support, we provide a complete ecosystem for smart farming.",
+    "cards": [
+      {
+        "title": "Spraying of Agrochemicals",
+        "description": "Precise and uniform spraying of liquid-based pesticides, fertilizers, and nutrients."
+      },
+      {
+        "title": "Covers All Types of Crops",
+        "description": "Versatile technology suitable for paddy, wheat, sugarcane, fruits, vegetables, and more."
+      },
+      {
+        "title": "Loan & Credit Support",
+        "description": "We provide assistance and guidance for accessing financing and government subsidies."
+      },
+      {
+        "title": "5 Days Remote Pilot Training",
+        "description": "DGCA-certified training to make you a professional drone pilot for agricultural operations."
+      },
+      {
+        "title": "24x7 Customer Support",
+        "description": "Our dedicated team is always available to help you with any technical or operational queries."
+      },
+      {
+        "title": "Insurance Support",
+        "description": "Comprehensive insurance coverage for your drone to protect your investment."
+      },
+      {
+        "title": "All India Presence",
+        "description": "A robust network across the country ensuring timely service and support wherever you are."
+      },
+      {
+        "title": "Service & Maintenance",
+        "description": "Reliable and prompt after-sales service and maintenance to ensure maximum uptime."
+      }
+    ]
+  },
+  "specs_section": {
+    "title": "Technical Specifications",
+    "subtitle": "Our drones are engineered for Indian agricultural conditions with powerful features and reliable performance.",
+    "cards": [
+      {
+        "title": "Flight Time",
+        "value": "30-45 minutes",
+        "description": "Extended battery life for large farm coverage"
+      },
+      {
+        "title": "Coverage Area",
+        "value": "10-15 acres/hr",
+        "description": "Efficient spraying and monitoring capacity"
+      },
+      {
+        "title": "Payload Capacity",
+        "value": "10-16 liters",
+        "description": "Suitable for pesticides and fertilizers"
+      },
+      {
+        "title": "Camera Resolution",
+        "value": "4K HD",
+        "description": "High-resolution crop health monitoring"
+      },
+      {
+        "title": "Max Speed",
+        "value": "15 m/s",
+        "description": "Fast and efficient field operations"
+      },
+      {
+        "title": "Wind Resistance",
+        "value": "Up to 10 m/s",
+        "description": "Stable flight in various weather conditions"
+      }
+    ],
+    "additional_features": {
+      "title": "Additional Features",
+      "list": [
+        {
+          "feature": "GPS Navigation:",
+          "details": "Precision waypoint mapping and autonomous flight"
+        },
+        {
+          "feature": "Smart Sensors:",
+          "details": "Real-time crop health and soil moisture detection"
+        },
+        {
+          "feature": "Mobile App Control:",
+          "details": "Easy operation via smartphone interface"
+        },
+        {
+          "feature": "Safety Features:",
+          "details": "Obstacle detection and auto-return on low battery"
+        }
+      ]
+    }
+  },
+  "features2_section": {
+    "tagline": "Our Features",
+    "title": "Advanced Technology for Modern Farming",
+    "description1": "We have expanded our capabilities to include drone-based surveillance, mapping, thermal imaging, and precision agriculture practices such as sanitization and spraying.",
+    "description2_dgca": "As a <1>DGCA approved Drone Pilot Training organisation</1>, we provide world-class training in Drone Flying, ensuring you are certified and skilled.",
+    "feature_list": [
+      "Auto Pilot Mode",
+      "Cross-folding Structure",
+      "Easy to Carry",
+      "Altitude Radar",
+      "Plug-in Battery",
+      "FPV Camera"
+    ],
+    "image_alt": "Krishi Vimaan Drone highlighting its features"
+  },
+  "gallery_section": {
+    "title": "Our Drones in Action",
+    "subtitle": "See how our technology transforms farming across India",
+    "images": [
+      {
+        "alt": "Drone spraying crops in Indian farmland",
+        "title": "Precision Spraying"
+      },
+      {
+        "alt": "Drone monitoring crop health",
+        "title": "Crop Monitoring"
+      },
+      {
+        "alt": "Drone with GPS navigation system",
+        "title": "GPS Navigation"
+      }
+    ]
+  },
+  "mission_vision_section": {
+    "mission": {
+      "title": "Our Mission",
+      "description": "To bring advanced agricultural technology to every Indian farm, empowering farmers with smart and sustainable solutions that enhance productivity, reduce costs, and promote environmental stewardship."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "A future where every farmer uses drones to achieve higher productivity, sustainability, and prosperity. We envision Indian agriculture leading the world in technological innovation and sustainable farming practices."
+    }
+  },
+  "usp_section": {
+    "title": "Why Choose Abhyuday Drones?",
+    "subtitle": "Committed to making precision farming accessible to every Indian farmer",
+    "cards": [
+      {
+        "title": "Indigenous Technology",
+        "description": "Built specifically for Indian farming conditions, climate, and crop varieties."
+      },
+      {
+        "title": "Easy to Operate",
+        "description": "Simple controls and comprehensive training for farmers of all technical backgrounds."
+      },
+      {
+        "title": "Affordable & Reliable",
+        "description": "Cost-effective solutions with local support and readily available spare parts."
+      },
+      {
+        "title": "Trusted by Farmers",
+        "description": "Serving 1000+ farming communities across India with proven results."
+      }
+    ]
+  },
+  "enquiry_form_section": {
+    "title": "Get in Touch",
+    "subtitle": "Fill out the form below and our team will contact you shortly.",
+    "fields": {
+      "name": {
+        "label": "Name *",
+        "placeholder": "Enter your full name"
+      },
+      "phone": {
+        "label": "Phone Number *",
+        "placeholder": "Enter 10-digit mobile number"
+      },
+      "email": {
+        "label": "Email *",
+        "placeholder": "your.email@example.com"
+      },
+      "location": {
+        "label": "Location *",
+        "placeholder": "City, State"
+      },
+      "message": {
+        "label": "Message *",
+        "placeholder": "Tell us about your farming needs and how we can help..."
+      }
+    },
+    "button": {
+      "send": "Send Enquiry",
+      "sending": "Sending..."
+    },
+    "validation": {
+      "name_min": "Name must be at least 2 characters",
+      "name_max": "Name must be less than 100 characters",
+      "phone_invalid": "Please enter a valid 10-digit Indian mobile number",
+      "email_invalid": "Please enter a valid email address",
+      "email_max": "Email must be less than 255 characters",
+      "location_min": "Please enter your location",
+      "location_max": "Location must be less than 200 characters",
+      "message_min": "Message must be at least 10 characters",
+      "message_max": "Message must be less than 1000 characters"
+    },
+    "toast": {
+      "success_title": "Enquiry Sent Successfully!",
+      "success_description": "Thank you for your interest. Our team will contact you within 24 hours."
+    }
+  },
+  "footer_section": {
+    "brand_name": "Abhyuday Drones",
+    "description": "Empowering Indian farmers with smart drone technology for precision farming.",
+    "quick_links": {
+      "title": "Quick Links",
+      "about": "About Us",
+      "features": "Features",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "contact_us": {
+      "title": "Contact Us",
+      "address": "Mumbai, Maharashtra, India"
+    },
+    "copyright": "© 2025 Abhyuday Drones. All rights reserved. Made with ❤️ for Indian Farmers."
+  }
+}
+

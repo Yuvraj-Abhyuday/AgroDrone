@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next";
 import { Target, Eye } from "lucide-react";
 
 const MissionVision = () => {
+  const { t } = useTranslation();
+
   return (
-    <section className="py-20 bg-muted/30">
+    <section id="mission" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Mission */}
@@ -12,13 +15,11 @@ const MissionVision = () => {
                 <Target className="w-8 h-8 text-primary-foreground" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Our Mission
+                {t('mission_vision_section.mission.title')}
               </h2>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              To bring advanced agricultural technology to every Indian farm, empowering farmers 
-              with smart and sustainable solutions that enhance productivity, reduce costs, and 
-              promote environmental stewardship.
+              {t('mission_vision_section.mission.description')}
             </p>
           </div>
 
@@ -29,13 +30,11 @@ const MissionVision = () => {
                 <Eye className="w-8 h-8 text-secondary-foreground" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Our Vision
+                {t('mission_vision_section.vision.title')}
               </h2>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              A future where every farmer uses drones to achieve higher productivity, sustainability, 
-              and prosperity. We envision Indian agriculture leading the world in technological 
-              innovation and sustainable farming practices.
+              {t('mission_vision_section.vision.description')}
             </p>
           </div>
         </div>

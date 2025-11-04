@@ -1,16 +1,19 @@
+import { useTranslation } from "react-i18next"; // <-- Import the hook
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import heroImage from "@/assets/hero-drone.jpg";
 
 const Hero = () => {
+  const { t } = useTranslation(); // <-- Initialize the hook
+
   const scrollToEnquiry = () => {
     document.getElementById('enquiry')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url(${heroImage})`,
@@ -24,20 +27,44 @@ const Hero = () => {
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 py-20 text-center animate-fade-in">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-          Empowering Indian Farmers with<br />
-          <span className="text-secondary">Smart Drone Technology</span>
+          {t('hero.title_line1')}<br />
+          <span className="text-secondary">{t('hero.title_line2_highlight')}</span>
         </h1>
         <p className="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-          Precision farming made easy — increase yield, save resources, and monitor crops efficiently.
+          {t('hero.subtitle')}
         </p>
-        <Button 
-          size="lg" 
+        <Button
+          size="lg"
           onClick={scrollToEnquiry}
           className="bg-secondary hover:bg-secondary/90 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
         >
-          Enquire Now
+          {t('buttons.enquire_now')}
           <ArrowDown className="ml-2 h-5 w-5 animate-bounce" />
         </Button>
+
+        {/* Added Information Cards */}
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          {/* Card 1: Protect */}
+          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/20 text-left">
+            <h3 className="text-secondary font-bold text-lg mb-2">{t('hero.cards.protect.title')}</h3>
+            <p className="text-2xl font-semibold text-white mb-1">{t('hero.cards.protect.main_text')}</p>
+            <p className="text-white/80 text-sm">{t('hero.cards.protect.sub_text')}</p>
+          </div>
+
+          {/* Card 2: Growth */}
+          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/20 text-left">
+            <h3 className="text-secondary font-bold text-lg mb-2">{t('hero.cards.growth.title')}</h3>
+            <p className="text-2xl font-semibold text-white mb-1">{t('hero.cards.growth.main_text')}</p>
+            <p className="text-white/80 text-sm">{t('hero.cards.growth.sub_text')}</p>
+          </div>
+
+          {/* Card 3: Saving */}
+          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/20 text-left">
+            <h3 className="text-secondary font-bold text-lg mb-2">{t('hero.cards.saving.title')}</h3>
+            <p className="text-2xl font-semibold text-white mb-1">{t('hero.cards.saving.main_text')}</p>
+            <p className="text-white/80 text-sm">{t('hero.cards.saving.sub_text')}</p>
+          </div>
+        </div>
       </div>
 
       {/* Scroll Indicator */}

@@ -7,6 +7,9 @@ import MissionVision from "@/components/MissionVision";
 import USP from "@/components/USP";
 import EnquiryForm from "@/components/EnquiryForm";
 import Footer from "@/components/Footer";
+import AboutUs from "@/components/AboutUs";
+import Services from "@/components/Services";
+import Features2 from "@/components/Feature2";
 
 const Index = () => {
   return (
@@ -18,7 +21,12 @@ const Index = () => {
       <div id="features">
         <Features />
       </div>
+      <div id="features">
+        <AboutUs />
+      </div>
+      <Services />
       <DroneSpecs />
+      <Features2 />
       <div id="gallery">
         <ImageGallery />
       </div>

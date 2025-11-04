@@ -1,47 +1,38 @@
+import { useTranslation } from "react-i18next";
 import droneSprayingImg from "@/assets/drone-spraying.jpg";
 import droneMonitoringImg from "@/assets/drone-monitoring.png";
 import droneNavigationImg from "@/assets/drone-navigation.jpg";
 
-const images = [
-  {
-    src: droneSprayingImg,
-    alt: "Drone spraying crops in Indian farmland",
-    title: "Precision Spraying"
-  },
-  {
-    src: droneMonitoringImg,
-    alt: "Drone monitoring crop health",
-    title: "Crop Monitoring"
-  },
-  {
-    src: droneNavigationImg,
-    alt: "Drone with GPS navigation system",
-    title: "GPS Navigation"
-  }
-];
+// Keep the image sources in a local array
+const imageSources = [droneSprayingImg, droneMonitoringImg, droneNavigationImg];
 
 const ImageGallery = () => {
+  const { t } = useTranslation();
+
+  // Fetch the translatable text data for the images
+  const imagesData = t('gallery_section.images', { returnObjects: true }) as { alt: string, title: string }[];
+
   return (
-    <section className="py-20 bg-background">
+    <section id="gallery" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
-            Our Drones in Action
+            {t('gallery_section.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            See how our technology transforms farming across India
+            {t('gallery_section.subtitle')}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {images.map((image, index) => (
+          {imagesData.map((image, index) => (
             <div 
               key={index}
               className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 animate-scale-in"
               style={{ animationDelay: `${index * 150}ms` }}
             >
               <img 
-                src={image.src} 
+                src={imageSources[index]} 
                 alt={image.alt}
                 className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
               />
