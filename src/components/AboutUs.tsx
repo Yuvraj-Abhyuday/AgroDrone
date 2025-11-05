@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"; // <-- Import the hook
 import { Button } from "@/components/ui/button";
-import aboutDroneImage from "@/assets/Arms.png";
+import aboutDroneImage from "@/assets/About.png";
 
 const AboutUs = () => {
   const { t } = useTranslation(); // <-- Initialize the hook

@@ -1,4 +1,4 @@
-import { useTranslation, Trans } from "react-i18next"; // <-- Import Trans
+import { useTranslation, Trans } from "react-i18next";
 import {
   Bot,
   Scaling,
@@ -8,7 +8,8 @@ import {
   Camera,
   CheckCircle2,
 } from "lucide-react";
-import featuresDroneImage from "@/assets/drone-monitoring.png";
+// Change the import from an image to your video file
+import featuresDroneVideo from "/video/balramVideo.mp4"; // <-- UPDATE THIS PATH
 
 // Keep an array of the icon components in the correct order
 const featureIcons = [Bot, Scaling, Grab, Radar, BatteryCharging, Camera];
@@ -24,13 +25,20 @@ const Features2 = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
-          {/* Left Column: Image */}
+          {/* Left Column: Video */}
           <div className="flex justify-center order-2 lg:order-1">
-            <img 
-              src={featuresDroneImage} 
-              alt={t('features2_section.image_alt')}
-              className="rounded-xl shadow-2xl w-full max-w-md lg:max-w-full object-contain"
-            />
+            {/* --- REPLACED IMAGE WITH VIDEO --- */}
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="rounded-xl  w-full max-w-md lg:max-w-full object-contain"
+            >
+              <source src={featuresDroneVideo} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            {/* --- END REPLACEMENT --- */}
           </div>
 
           {/* Right Column: Text Content */}

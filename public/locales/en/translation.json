@@ -59,7 +59,7 @@
   "about_us_section": {
     "tagline": "6 Hours of Work in 6 Minutes: The Farmer's Aircraft",
     "title": "About Us",
-    "description": "Krishi Vimaan, a smart and precision Agritech start-up by WOW Go Green, aims to modernize Indian farming. We are dedicated to contributing to the welfare of the farming community and generating employment for rural youth through innovative drone technology.",
+    "description": "Abhyuday Drones, a smart and precision Agritech start-up by WOW Go Green, aims to modernize Indian farming. We are dedicated to contributing to the welfare of the farming community and generating employment for rural youth through innovative drone technology.",
     "stats": [
       { "value": "500+", "label": "Satisfied Farmers in India" },
       { "value": "50+", "label": "Team Of Employees" },
@@ -69,7 +69,7 @@
       { "value": "20+", "label": "Crops Covered" }
     ],
     "button_text": "Read More",
-    "image_alt": "Krishi Vimaan Agriculture Drone with its arms extended"
+    "image_alt": "Abhyuday Drones Agriculture Drone with its arms extended"
   },
   "services_section": {
     "tagline": "What We Offer",
@@ -180,7 +180,7 @@
       "Plug-in Battery",
       "FPV Camera"
     ],
-    "image_alt": "Krishi Vimaan Drone highlighting its features"
+    "image_alt": "Abhyuday Drones Drone highlighting its features"
   },
   "gallery_section": {
     "title": "Our Drones in Action",

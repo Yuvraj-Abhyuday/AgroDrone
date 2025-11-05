@@ -1,10 +1,11 @@
-import { useTranslation } from "react-i18next"; // <-- Import the hook
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
-import heroImage from "@/assets/hero-drone.jpg";
+// Import the video file
+import heroVideo from "/video/DroneHeroSection.webm";
 
 const Hero = () => {
-  const { t } = useTranslation(); // <-- Initialize the hook
+  const { t } = useTranslation();
 
   const scrollToEnquiry = () => {
     document.getElementById('enquiry')?.scrollIntoView({ behavior: 'smooth' });
@@ -12,17 +13,22 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
+      {/* Background Video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline // Important for autoplay on mobile devices
+        className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-background"></div>
-      </div>
+        <source src={heroVideo} type="video/webm" />
+        {/* You can keep a public path as a fallback if the import fails or for other formats */}
+        <source src="/video/DroneHeroSection.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Overlay to darken the video for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50  to-white/80 z-0 "></div>
 
       {/* Content */}
       <div className="container relative z-10 mx-auto px-4 py-20 text-center animate-fade-in">
